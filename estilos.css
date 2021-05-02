@@ -1,0 +1,59 @@
+body{
+	background-color: black;
+	font-family: "Century Gothic";
+	color: white;
+}
+
+#page{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	margin-top: 2%;
+}
+
+header{
+	font-family: "Courier";
+	font-size: 22px;
+	border-style: ridge;
+	border-width: 12px;
+	border-color: #696969;
+	background-color: #a9a9a9;
+	color: black;
+}
+
+p{
+	font-size: 20px;
+}
+img{
+	width: 200px;
+	height: 150px;
+}
+
+#cara{
+	width: 350px;
+	height: 210px;
+	transition: all 0.8s;
+}
+
+#cara:hover{
+	transform: scale(0.8);
+}
+
+#album{
+	width: 300px;
+	height: 300px;
+	transition: all 0.8s;
+}
+
+#album:hover{
+	transform-style: preserve-3d;
+	transform: scale(0.75);
+}
+
+
+
+
+
+
+
+
